@@ -1,0 +1,22 @@
+.about{
+    margin: 5rem 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+.about .container .about-heading{
+    text-align: center;
+    margin: 2.5rem;
+}
+.about .container .about-heading h1{
+    font-size: 2rem;
+    font-weight: 500;
+}
+.about .container .about-heading hr{
+    height:5px;
+    border-width:0;
+    width: 15%;
+    margin: auto;
+    background-color:rgb(0, 0, 0);    
+}
+.about .container .about-contant{
+    display: flex;
+}
