@@ -1,0 +1,35 @@
+.service{
+    background-color: #111;
+    font-family: 'Poppins', sans-serif;
+    padding: 2.5rem 0;
+}
+.service .heading{
+     color: cornsilk;
+}
+.service .heading hr{
+    background-color: cornsilk;
+}
+.service .heading h1::after{
+    background-color: #111
+}
+.service .serv-contant {
+    display: flex;
+    margin: 1rem 0;
+}
+.service .serv-contant .serv-cart {
+    text-align: center;
+    color: #fff;
+    background-color: #222;
+    padding: 2.5rem 1rem;
+    margin: 0.5rem;
+    border-radius: 4px;
+}
+.service .serv-contant .serv-cart i{
+    color: crimson;;
+    font-size: 2rem;
+}
+.service .serv-contant .serv-cart h1{
+  
+    font-size: 1.5rem;
+    font-weight: 400;
+}
