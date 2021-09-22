@@ -40,3 +40,32 @@ html {
   padding: 0 4rem;
   margin: 0 auto;
 }
+/* heading*/
+.heading{
+  text-align: center;
+  margin: 2.5rem;
+  font-family: 'Ubuntu', sans-serif;
+}
+.heading h1{
+  font-size: 2rem;
+  font-weight: 500;
+  position: relative;
+}
+.heading h1::after{
+  content: "who i am";
+  position: absolute;
+  font-size: 1rem;
+  bottom: -1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  padding: 4px;
+  color: crimson;
+}
+.heading hr{
+  height:3px;
+  border-width:0;
+  width: 17%;
+  margin: 0.8rem auto;
+  background-color:rgb(0, 0, 0);    
+}

@@ -2,21 +2,53 @@
     margin: 5rem 0;
     font-family: 'Ubuntu', sans-serif;
 }
-.about .container .about-heading{
-    text-align: center;
-    margin: 2.5rem;
-}
-.about .container .about-heading h1{
-    font-size: 2rem;
-    font-weight: 500;
-}
-.about .container .about-heading hr{
-    height:5px;
-    border-width:0;
-    width: 15%;
-    margin: auto;
-    background-color:rgb(0, 0, 0);    
-}
+
+
 .about .container .about-contant{
     display: flex;
+}
+.about .container .about-contant .img {
+    width: 45%;
+    text-align: left;
+}
+.about .container .about-contant .img img{
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+.about .container .about-contant .contant{
+    width: 55%;
+}
+.about .container .about-contant .contant h1{
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5rem 0;
+}
+.about .container .about-contant .contant p{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5rem 0;
+    
+}
+.about .container .about-contant .contant a{
+    display: inline-block;
+    background: crimson;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin-top: 20px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 6px;
+    border: 2px solid crimson;
+    transition: all 0.3s ease;
+    width: 33%;
+}
+.about .container .about-contant .contant a:hover{
+    color: crimson;
+    background: none;
 }
