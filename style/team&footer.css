@@ -8,14 +8,13 @@
 .about, .services, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
-
 .contact .contact-content{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-between;
 }
-section .title{
+section.teams .title,section.contact .title{
     position: relative;
     text-align: center;
     font-size: 40px;
@@ -24,7 +23,7 @@ section .title{
     padding-bottom: 20px;
     font-family: 'Ubuntu', sans-serif;
 }
-section .title::before{
+section.teams .title::before,section.contact .title::before{
     content: "";
     position: absolute;
     bottom: 0px;
@@ -34,7 +33,7 @@ section .title::before{
     background: #111;
     transform: translateX(-50%);
 }
-section .title::after{
+section.teams .title::after,section.contact .title::after{
     position: absolute;
     bottom: -8px;
     left: 50%;
